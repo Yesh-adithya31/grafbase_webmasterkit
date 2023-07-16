@@ -5,7 +5,7 @@ import { ProjectForm } from "@/common.types";
 
 // const isProduction = process.env.NODE_ENV === 'production';
 const apiUrl = process.env.NEXT_PUBLIC_GRAFBASE_API_URL!;
-const apiKey = process.env.NEXT_PUBLIC_GRAFBASE_API_KEY;
+const apiKey = process.env.NEXT_PUBLIC_GRAFBASE_API_KEY!;
 const serverUrl = process.env.NEXT_PUBLIC_SERVER_URL;
 
 const client = new GraphQLClient(apiUrl);
